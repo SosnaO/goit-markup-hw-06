@@ -120,8 +120,8 @@ textarea {
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 12px;
-
+  padding-bottom: 12px;
+  margin: 0px;
   color: #212121;
 }
 
@@ -154,13 +154,11 @@ textarea {
   margin-bottom: 10px;
 }
 
-
 .form-label {
   margin-bottom: 4px;
   font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .form-input {
@@ -172,10 +170,68 @@ line-height: 14px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
-}
-/* identical to box height */
 
-letter-spacing: 0.01em;
+  letter-spacing: 0.01em;
+}
+.form-comment {
+  width: 448px;
+  height: 120px;
+  left: 576px;
+  top: 518px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.form-field textarea::placeholder {
+  width: 416px;
+  height: 96px;
+  left: 592px;
+  top: 530px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form-checkbox {
+  display: inline;
+}
+
+.button-submit {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 712px;
+  border: none;
+  background-color: var(--accent-color);
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+
+  color: var(--primary-white-color);
+  margin-top: 30px;
+  margin-bottom: 40px;
+  text-decoration: none;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.terms {
+  color: var(--accent-color);
 }
 
 /*features */
