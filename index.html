@@ -110,13 +110,13 @@
 
                 <a href=""<button  class="button-submit" type="submit">Отправить</button></a>
               </form>
-              <img
-                data-modal-close
-                class="close"
-                src="./images/close.svg"
-                alt="Закрыть"
-                width="30"
-              />
+             
+
+                <svg data-modal-close class="close" width="30" height="30">
+                  <use href="./images/sprite.svg#icon-close"></use>
+                </svg>
+               
+              
             </div>
           </div>
         </div>
@@ -456,20 +456,16 @@
 
          <div class="mailing">
           <p class ="mailing-slogan">Подпишитесь на рассылку</p>
-
           <div class="mailing-field">
-                  <label for="mail" class="mailing-label"></label>
-                  <input
-                    class="mailing-input"
-                    type="email"
-                    name="mail"
-                    id="mail"
-                    placeholder="E-mail"
-                  />
-
-
-
-
+           <input class="mailing-input"
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="E-mail"/>
+            <a href=""<button  class="button-mailing" type="submit">Подписаться</button>
+            <svg class="mailing-send" width="24" height="24">
+            <use href="./images/sprite.svg#icon-icon-send"></use></a>
+            </svg>
          </div> 
         </address>
       </div>

@@ -249,11 +249,12 @@ span {
 }
 
 .mailing {
-  width: 570px;
+  
   height: 86px;
   left: 815px;
   top: 2749px;
   padding-left: 93px;
+  padding-right: 215px;
 }
 .mailing-slogan {
   width: 219px;
@@ -270,25 +271,53 @@ span {
   color: var(--primary-white-color);
 }
 
-.mailing-field {
+.mailing-input {
   width: 358px;
   height: 50px;
   left: 815px;
   top: 2785px;
-
+  padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-}
-.mailing-input {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.25;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
   background-color: var(--primary-bg-color);
-  color: rgba(255, 255, 255, 0.6);
-  border: none;
+}
+
+.mailing-field {
+  display: flex;
+}
+
+.button-mailing {
+  width: 200px;
+  height: 50px;
+  left: 1185px;
+  top: 2785px;
+
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: var(--primary-white-color);
+  margin-left: 12px;
+
+  padding-left: 29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mailing-send {
+  display: flex;
+
+  margin: 13px 28px 13px 10px;
 }
