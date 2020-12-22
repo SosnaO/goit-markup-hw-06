@@ -69,6 +69,7 @@ textarea {
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
+  outline: transparent;
 }
 
 .backdrop {
@@ -297,7 +298,8 @@ textarea {
   margin-top: 30px;
   margin-bottom: 40px;
   text-decoration: none;
-
+  cursor: pointer;
+  outline: transparent;
   padding-top: 10px;
   padding-bottom: 10px;
 }
