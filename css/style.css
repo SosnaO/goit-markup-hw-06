@@ -249,18 +249,12 @@ span {
 }
 
 .mailing {
-  height: 86px;
-  left: 815px;
-  top: 2749px;
+  display: flex;
+  flex-direction: column;
   padding-left: 93px;
   padding-right: 215px;
 }
 .mailing-slogan {
-  width: 219px;
-  height: 16px;
-  left: 815px;
-  top: 2749px;
-
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -288,10 +282,7 @@ span {
 }
 
 .button-mailing {
-  width: 200px;
   height: 50px;
-  left: 1185px;
-  top: 2785px;
 
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
