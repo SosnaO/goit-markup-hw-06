@@ -118,7 +118,7 @@ header {
   display: block;
   margin-right: 30px;
   margin-bottom: 30px;
-
+  cursor: pointer;
   width: 370px;
   height: 404px;
 }
